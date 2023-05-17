@@ -23,8 +23,10 @@ public abstract class CompositeTask extends Task implements Observer {
 
     @Override
     public void update(Observable observable, Object o) {
-        this.cost += (Integer) o;
+        CostChanged change = (CostChanged) o;
+        int oldCost = this.cost;
+        this.cost += change.newCost() - change.oldCost();
         setChanged();
-        notifyObservers();
+        notifyObservers(new CostChanged(oldCost, this.cost));
     }
 }
