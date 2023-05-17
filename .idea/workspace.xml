@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1001355b-4288-4b3f-9e8c-ce4a2c3459fb" name="Changes" comment="TOT FET?">
+    <list default="true" id="1001355b-4288-4b3f-9e8c-ce4a2c3459fb" name="Changes" comment="he hagut d'actualitzar merdes jiji">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Activitat3/CompositeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Activitat3/CompositeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Activitat3/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Activitat3/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Activitat3/SimpleTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Activitat3/SimpleTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Activitat3/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Activitat3/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +59,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684311561001</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="he hagut d'actualitzar merdes jiji">
+      <created>1684316036519</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684316036519</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixing tonteries" />
     <MESSAGE value="TOT FET?" />
-    <option name="LAST_COMMIT_MESSAGE" value="TOT FET?" />
+    <MESSAGE value="he hagut d'actualitzar merdes jiji" />
+    <option name="LAST_COMMIT_MESSAGE" value="he hagut d'actualitzar merdes jiji" />
   </component>
 </project>
