@@ -1,4 +1,7 @@
 package Activitat3;
 
-public class Task {
+import java.util.Observable;
+
+public abstract class Task extends Observable {
+    abstract public Money costInEuros();
 }
