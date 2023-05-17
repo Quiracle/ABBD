@@ -6,7 +6,7 @@ import java.util.Observer;
 public class Task extends Observable {
     protected int cost;
 
-    protected Task(int cost) {
+    protected Task(int cost) throws IllegalArgumentException{
         if (cost <= 0) throw new IllegalArgumentException();
         this.cost = cost;
     }
