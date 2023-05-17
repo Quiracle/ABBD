@@ -9,6 +9,7 @@ public abstract class CompositeTask extends Task implements Observer {
     protected List<Task> tasks;
 
     public CompositeTask() {
+        super(0);
         this.tasks = new ArrayList<>();
     }
 
@@ -21,17 +22,13 @@ public abstract class CompositeTask extends Task implements Observer {
     }
 
     @Override
-    public Money costInEuros() {
-        Money m = new Money(0);
+    public void update(Observable observable, Object o) {
+        int m = 0;
 
         for(Task t : tasks)
-            m = m.add(t.costInEuros());
+            m += t.costInEuros();
 
-        return m;
-    }
-
-    @Override
-    public void update(Observable observable, Object o) {
+        this.cost = m;
         setChanged();
         notifyObservers();
     }

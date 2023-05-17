@@ -2,18 +2,12 @@ package Activitat3;
 
 public class SimpleTask extends Task {
 
-    private Money cost;
-
-    public SimpleTask(Money cost) {
-        this.cost = cost;
+    public SimpleTask(int cost) {
+        super(cost);
     }
 
-    @Override
-    public Money costInEuros() {
-        return cost;
-    }
-
-    public void changeCost(Money newCost){
+    public void changeCost(int newCost){
+        if (newCost <= 0) throw new IllegalArgumentException();
         this.cost = newCost;
         setChanged();
         notifyObservers();

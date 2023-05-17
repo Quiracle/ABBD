@@ -1,7 +1,15 @@
 package Activitat3;
 
 import java.util.Observable;
+import java.util.Observer;
 
-public abstract class Task extends Observable {
-    abstract public Money costInEuros();
+public class Task extends Observable {
+    protected int cost;
+    protected Task(int cost) {
+        if (cost <= 0) throw new IllegalArgumentException();
+        this.cost = cost;
+    }
+    public int costInEuros() {
+        return this.cost;
+    }
 }
