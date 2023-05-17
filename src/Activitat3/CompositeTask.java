@@ -19,6 +19,7 @@ public abstract class CompositeTask extends Task implements Observer {
         task.addObserver(this);
         int oldCost = this.cost;
         this.cost += task.costInEuros();
+        if (task.costInEuros() == 0) return:
         setChanged();
         notifyObservers(new CostChanged(oldCost, this.cost));
     }
