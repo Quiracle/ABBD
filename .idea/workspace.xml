@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1001355b-4288-4b3f-9e8c-ce4a2c3459fb" name="Changes" comment="he hagut d'actualitzar merdes jiji">
+    <list default="true" id="1001355b-4288-4b3f-9e8c-ce4a2c3459fb" name="Changes" comment="throws added">
+      <change afterPath="$PROJECT_DIR$/src/ExerciciVisitor/MCVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciciVisitor/Machine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciciVisitor/MachineComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciciVisitor/MachineComposite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExerciciVisitor/NumMachinesOverMinVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recu1617/LineIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recu1617/LinePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recu1617/SequenceProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recu1617/SimpleStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recu1617/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recu2021/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recu2021/ItemsOverPriceVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recu2021/PVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recu2021/Pack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recu2021/PriceModifierVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recu2021/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -27,15 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,13 +83,44 @@
       <option name="project" value="LOCAL" />
       <updated>1684316036519</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="he hagut d'actualitzar merdes jiji">
+      <created>1684316785761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684316785761</updated>
+    </task>
+    <task id="LOCAL-00005" summary="probes amb record">
+      <created>1684318466768</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684318466768</updated>
+    </task>
+    <task id="LOCAL-00006" summary="record utilitzat correctament">
+      <created>1684319824470</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684319824470</updated>
+    </task>
+    <task id="LOCAL-00007" summary="throws added">
+      <created>1684320233457</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684320233457</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixing tonteries" />
     <MESSAGE value="TOT FET?" />
     <MESSAGE value="he hagut d'actualitzar merdes jiji" />
-    <option name="LAST_COMMIT_MESSAGE" value="he hagut d'actualitzar merdes jiji" />
+    <MESSAGE value="probes amb record" />
+    <MESSAGE value="record utilitzat correctament" />
+    <MESSAGE value="throws added" />
+    <option name="LAST_COMMIT_MESSAGE" value="throws added" />
   </component>
 </project>
